@@ -1,5 +1,5 @@
 {
-  "name": "chrispenny/silverstripe-downloadable-data-object-stash",
+  "name": "chrispenny/silverstripe-downloadable-dataobject-stash",
   "description": "Download and restore YAML fixtures for DataObjects",
   "type": "silverstripe-vendormodule",
   "keywords": [
@@ -19,14 +19,15 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/chrispenny/silverstripe-downloadable-data-object-stash/issues"
+    "issues": "https://github.com/chrispenny/silverstripe-downloadable-dataobject-stash/issues"
   },
   "require": {
     "php": "^7.4 || ^8.0",
     "silverstripe/vendor-plugin": "^1.0",
     "silverstripe/framework": "^4.8",
     "silverstripe/cms": "^4.8",
-    "dnadesign/silverstripe-populate": "^2.1"
+    "dnadesign/silverstripe-populate": "^2.1",
+    "chrispenny/silverstripe-data-object-to-fixture": "^0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5",

@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin;
+namespace ChrisPenny\DataObjectStash\Admin;
 
-use ChrisPenny\DataObjectToFixture\Admin\Form\ExportButton;
-use ChrisPenny\DataObjectToFixture\Admin\Form\ImportButton;
-use ChrisPenny\DataObjectToFixture\Admin\Model\ImportHistory;
-use ChrisPenny\DataObjectToFixture\Service\DataObjectService;
+use ChrisPenny\DataObjectStash\Admin\Form\ExportButton;
+use ChrisPenny\DataObjectStash\Admin\Form\ImportButton;
+use ChrisPenny\DataObjectStash\Admin\Model\ImportHistory;
+use ChrisPenny\DataObjectStash\Service\DataObjectService;
 use SilverStripe\Admin\ModelAdmin;
 use SilverStripe\CMS\Model\SiteTree;
 use SilverStripe\Control\Controller;
@@ -30,9 +30,9 @@ use Throwable;
 class ImportAdmin extends ModelAdmin implements PermissionProvider
 {
 
-    public const PERMISSION_IMPORT_ADMIN = 'DataObjectToFixture_Import_Admin';
-    public const PERMISSION_IMPORT = 'DataObjectToFixture_Import';
-    public const PERMISSION_EXPORT = 'DataObjectToFixture_Export';
+    public const PERMISSION_IMPORT_ADMIN = 'DataObjectStash_Import_Admin';
+    public const PERMISSION_IMPORT = 'DataObjectStash_Import';
+    public const PERMISSION_EXPORT = 'DataObjectStash_Export';
 
     private static string $url_segment = 'fixture-import';
 
@@ -154,15 +154,15 @@ class ImportAdmin extends ModelAdmin implements PermissionProvider
     {
         return [
             self::PERMISSION_EXPORT => [
-                'name' => _t('DataObjectToFixture.PERMISSION_EXPORT', 'Export'),
-                'category' => _t('DataObjectToFixture.PERMISSION_CATEGORY', 'DataObject to Fixture'),
-                'help' => _t('DataObjectToFixture.PERMISSION_HELP', 'Allow users to export pages to yaml files'),
+                'name' => _t('DataObjectToStash.PERMISSION_EXPORT', 'Export'),
+                'category' => _t('DataObjectToStash.PERMISSION_CATEGORY', 'DataObject to Fixture'),
+                'help' => _t('DataObjectToStash.PERMISSION_HELP', 'Allow users to export pages to yaml files'),
                 'sort' => 0,
             ],
             self::PERMISSION_IMPORT => [
-                'name' => _t('DataObjectToFixture.PERMISSION_IMPORT', 'Import'),
-                'category' => _t('DataObjectToFixture.PERMISSION_CATEGORY', 'DataObject to Fixture'),
-                'help' => _t('DataObjectToFixture.PERMISSION_HELP', 'Allow users to import pages from yaml files'),
+                'name' => _t('DataObjectToStash.PERMISSION_IMPORT', 'Import'),
+                'category' => _t('DataObjectToStash.PERMISSION_CATEGORY', 'DataObject to Fixture'),
+                'help' => _t('DataObjectToStash.PERMISSION_HELP', 'Allow users to import pages from yaml files'),
                 'sort' => 1,
             ],
         ];

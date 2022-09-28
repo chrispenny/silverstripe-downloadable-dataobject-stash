@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Task;
+namespace ChrisPenny\DataObjectStash\Task;
 
-use ChrisPenny\DataObjectToFixture\Service\DataObjectService;
+use ChrisPenny\DataObjectStash\Service\DataObjectService;
 use Exception;
 use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Core\Injector\Injector;

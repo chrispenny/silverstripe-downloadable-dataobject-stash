@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin\Extension;
+namespace ChrisPenny\DataObjectStash\Admin\Extension;
 
-use ChrisPenny\DataObjectToFixture\Admin\ImportAdmin;
+use ChrisPenny\DataObjectStash\Admin\ImportAdmin;
 use ChrisPenny\DataObjectToFixture\Service\FixtureService;
 use SilverStripe\Admin\LeftAndMainExtension;
 use SilverStripe\Control\HTTPRequest;

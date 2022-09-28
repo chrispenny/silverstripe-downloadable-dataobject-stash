@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin\Form;
+namespace ChrisPenny\DataObjectStash\Admin\Form;
 
 use ChrisPenny\DataObjectToFixture\Service\FixtureService;
 use SilverStripe\CMS\Model\SiteTree;

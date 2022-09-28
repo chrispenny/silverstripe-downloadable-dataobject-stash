@@ -7,7 +7,7 @@ search through open and closed ticket to see if the same (or similar) issue has 
 existing issue that has been closed, feel free to raise a new issue referencing the old, or you can request that the
 existing ticket be reopened.
 
-[Raise an issue](https://github.com/chrispenny/silverstripe-downloadable-data-object-stash/issues)
+[Raise an issue](https://github.com/chrispenny/silverstripe-downloadable-dataobject-stash/issues)
 
 ## Contributing code
 

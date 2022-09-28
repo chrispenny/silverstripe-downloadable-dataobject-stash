@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin\Form;
+namespace ChrisPenny\DataObjectStash\Admin\Form;
 
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridField_FormAction;

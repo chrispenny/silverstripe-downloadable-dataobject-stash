@@ -1,13 +1,13 @@
 ---
-Name: dataobjecttofixture_admin
+Name: dataobjectstash_admin
 ---
 SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - ChrisPenny\DataObjectToFixture\Admin\Extension\SiteTreeExtension
+    - ChrisPenny\DataObjectStash\Admin\Extension\SiteTreeExtension
 
 SilverStripe\Admin\LeftAndMain:
   extensions:
-    - ChrisPenny\DataObjectToFixture\Admin\Extension\ExportFixtureExtension
+    - ChrisPenny\DataObjectStash\Admin\Extension\ExportFixtureExtension
 
 SilverStripe\MimeValidator\MimeUploadValidator:
   MimeTypes:

@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin\Model;
+namespace ChrisPenny\DataObjectStash\Admin\Model;
 
 use SilverStripe\ORM\DataObject;
 
@@ -10,7 +10,7 @@ use SilverStripe\ORM\DataObject;
 class ImportHistory extends DataObject
 {
 
-    private static string $table_name = 'DataObjectToFixture_ImportHistory';
+    private static string $table_name = 'DataObjectStash_ImportHistory';
 
     private static array $db = [
         'Filename' => 'Varchar(255)',

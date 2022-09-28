@@ -3,5 +3,5 @@
 DDOS for short.
 
 ```
-composer require chrispenny/silverstripe-downloadable-data-object-stash
+composer require chrispenny/silverstripe-downloadable-dataobject-stash
 ```

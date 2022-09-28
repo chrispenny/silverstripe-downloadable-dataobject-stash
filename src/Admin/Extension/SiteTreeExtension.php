@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Admin\Extension;
+namespace ChrisPenny\DataObjectStash\Admin\Extension;
 
-use ChrisPenny\DataObjectToFixture\Admin\ImportAdmin;
+use ChrisPenny\DataObjectStash\Admin\ImportAdmin;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\FormAction;
@@ -40,7 +40,7 @@ class SiteTreeExtension extends DataExtension
 
         $actionOptions->insertAfter(
             'Information',
-            FormAction::create('exportfixture', _t('DataObjectToFixture.ExportFixture', 'Export Fixture'))
+            FormAction::create('exportfixture', _t('DataObjectToStash.ExportFixture', 'Export Fixture'))
                 ->setUseButtonTag(false)
                 ->addExtraClass('export-fixture-action')
                 ->addExtraClass('btn')

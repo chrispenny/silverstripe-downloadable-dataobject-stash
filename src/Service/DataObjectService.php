@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisPenny\DataObjectToFixture\Service;
+namespace ChrisPenny\DataObjectStash\Service;
 
 use DNADesign\Populate\PopulateFactory;
 use SilverStripe\Core\Config\Configurable;
